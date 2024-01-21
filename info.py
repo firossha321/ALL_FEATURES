@@ -78,6 +78,7 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
+P_USER = environ.get('PREMIUM','')
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
 VERIFY2_URL = environ.get('VERIFY2_URL', "")
 VERIFY2_API = environ.get('VERIFY2_API', "")

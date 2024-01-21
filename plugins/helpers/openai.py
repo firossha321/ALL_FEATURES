@@ -6,7 +6,7 @@ import openai
 openai.api_key = OPENAI_API
 @Client.on_message(filters.command("openai"))
 async def openai(client, message):
-    if message.chat.id == FI_GROUP:
+    if message.chat.id == P_USER:
         btn = [[
             InlineKeyboardButton('Support Group', url="https://telegram.me/movie_bot_support")
         ]]

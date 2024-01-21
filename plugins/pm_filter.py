@@ -1163,7 +1163,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url="https://telegram.me/AllRequestGroups"),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://telegram.me/NobiDeveloper")
         ],[
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://telegram.me/NobiDeveloperSupport"),
+            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://telegram.me/movie_bot_support"),
             InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url="https://telegram.me/MovieVillaYT")
         ],[
             InlineKeyboardButton('ʙᴀᴄᴋ​', callback_data='start')
@@ -1215,7 +1215,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "support_group":
         buttons = [[
            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://telegram.me/NobiDeveloperr'),
-           InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://telegram.me/NobiDeveloperSupport')
+           InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://telegram.me/movie_bot_support')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
@@ -1428,7 +1428,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@NobiDeveloper')
         ],[
-            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ  ʙᴜɢꜱ  ᴀɴᴅ  ꜰᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/NobiDeveloperSupport')
+            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ  ʙᴜɢꜱ  ᴀɴᴅ  ꜰᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/movie_bot_support')
         ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ɴᴇxᴛ', url='https://telegram.me/AllRequestGroups')

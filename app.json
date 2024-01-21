@@ -30,6 +30,9 @@
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
+        "P_USER": {
+            "description": "ID OF PREMIUM USER",
+            "required": false
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false

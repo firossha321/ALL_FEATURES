@@ -4,7 +4,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import openai
 
 openai.api_key = OPENAI_API
-FI_GROUP == 100
 @Client.on_message(filters.command("openai"))
 async def openai(client, message):
     if message.chat.id == FI_GROUP:

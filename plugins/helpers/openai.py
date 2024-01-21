@@ -9,7 +9,7 @@ openai.api_key = OPENAI_API
 async def openai(client, message):
     if message.chat.id != S_GROUP:
         btn = [[
-            InlineKeyboardButton('Support Group', url="https://telegram.me/NobiDeveloperSupport")
+            InlineKeyboardButton('Support Group', url="https://telegram.me/movie_bot_support")
         ]]
         return await message.reply("This command only working in support group.", reply_markup=InlineKeyboardMarkup(btn))
     try:
